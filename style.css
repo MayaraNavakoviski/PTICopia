@@ -151,26 +151,26 @@
 
 /***************** NOTICIAS & COMPETENCIAS **************/
 
-.noticias-competencias {
+.noticiasCompetencias {
     background-image: linear-gradient(180deg, #00315E 0%, #000825 100%);
 }
 
-.noticias-competencias h2{
+.noticiasCompetencias h2{
     color: #fff;
     font-weight: 500;
     margin-top: 80px;
     font-size: 28px;
 }
 
-.conteudo-noticias {
+.contNoticias {
     display: flex;
     justify-content: space-between;
 }
 
 
-/******* CARD **************/
+/******* CARD DE NOTICIAS **************/
 
-.card-noticias {
+.cardNoticias {
     flex-basis: 24%;
     background-color: #4d8fc9c7;
     border-radius: 10px;
@@ -181,7 +181,7 @@
     border-color: #005CAAC7;
 }
 
-.card-noticias .card-noticias-data {
+.carNoticias .cardNoticias-Data {
     height: 30px;
     display: flex;
     justify-content: center;
@@ -196,26 +196,26 @@
     transition: all 0.2s ease-out;
 }
 
-.card-noticias .card-noticias-imagem:hover .card-noticias-data {
+.cardNoticias .cardNoticias-Imagem:hover .cardNoticias-Data {
     top: 220px;
 }
 
-.card-noticias .card-noticias-imagem {
+.cardNoticias .cardNoticias-Imagem {
     height: 220px;
     overflow: hidden;
     position: relative;
 }
 
-.card-noticias .card-noticias-imagem img{
+.cardNoticias .cardNoticias-Imagem img{
     width: 100%;
     transition: all 0.4s ease-out;
 }
 
-.card-noticias .card-noticias-imagem:hover img{
+.cardNoticias .cardNoticias-Imagem:hover img{
     transform: scale(1.1);
 }
 
-.card-noticias-texto {
+.cardNoticias-Texto {
     color: #003C6A;
     font-size: 17px;
     font-weight: 200;
@@ -223,11 +223,11 @@
     padding: 15px;
 }
 
-.card-noticias .dif {
+.cardNoticias .dif {
     margin-top: 20px;
 }
 
-.card-noticias .leia-mais .btn {
+.cardNoticias .leia-mais .btn {
     background-color: #EBEBEB;
     border-radius: 15px;
     padding: 5px 10px;
@@ -240,18 +240,18 @@
     margin-right: 20px;
 }
 
-.card-noticias .leia-mais .btn:hover {
+.cardNoticias .leia-mais .btn:hover {
     color: #ffffff;
     background-color: #0082c4;
 }
 
-.conteudo-competencias {
+.contCompetencias {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.conteudo-competencias .card-competencias{
+.contCcompetencias .cardCompetencias{
     width: 32%;
     border-radius: 20px;
     overflow: hidden;
@@ -260,13 +260,13 @@
     position: relative;
 }
 
-.conteudo-competencias .card-competencias img{
+.contCompetencias .cardCompetencias Img{
     max-width: 100%;
     transition: all 0.4s ease-out;
 
 }
 
-.conteudo-competencias .card-competencias .titulo{
+.contCompetencias .cardCcompetencias .Titulo{
     position: absolute;
     z-index: 1;
     bottom: 30px;
@@ -279,7 +279,7 @@
 }
 
 
-.conteudo-competencias .card-competencias:hover img{
+.contCompetencias .cardCcompetencias:hover img{
     transform: scale(1.2);
 }
 
@@ -290,17 +290,17 @@
     padding: 20px 0;
 }
 
-.footer .conteudo {
+.footer .conteudo1 {
     display: flex;
     flex-direction: column; 
     gap: 20px; 
 }
 
-.footer .coluna0 {
+.footer .c1 {
     align-self: flex-start;
 }
 
-.footer .coluna0 img {
+.footer .c1 img {
     height: 130px;
 }
 
@@ -311,12 +311,12 @@
     width: 100%; 
 }
 
-.footer .coluna1,
-.footer .coluna2 {
+.footer .c2,
+.footer .c3 {
     flex: 1; 
 }
 
-.footer .coluna1 ul li {
+.footer .c2 ul li {
     display: inline-flex;
     background-color: #0082c4; 
     transition: all 0.3s ease; 
@@ -332,44 +332,44 @@
 
 }
 
-.footer .coluna1 ul li a{
+.footer .c2 ul li a{
     color: inherit; 
 }
 
-.footer .coluna1 ul li:hover {
+.footer .c2 ul li:hover {
     background-color:transparent ;
     border: 2px solid #0082c4;
     color: #0082c4; 
     transform: scale(1.3);
 }
 
-.footer .coluna1 p {
+.footer .c2 p {
     color: #FFFFFF;
     margin-top: 20px;
 }
 
 
-.footer .coluna2 ul {
+.footer .c3 ul {
     list-style: none;
     padding: 0;
 }
 
-.footer .coluna2 ul li {
+.footer .c3 ul li {
     margin-bottom: 10px;
 }
 
-.footer .coluna2 ul li a {
+.footer .c3 ul li a {
     color: #FFFFFF;
     transition: color 0.4s linear;
     text-decoration: none;
 }
 
-.footer .coluna2 ul li a:hover {
+.footer .c3 ul li a:hover {
     color: #0082c4;
 }
 
 
-.footer .coluna1 button{
+.footer .c2 button{
     height: 33.6px;
     width: 352.125px;
     margin-top: 50px;
@@ -379,7 +379,7 @@
     background-color:#0082c4; 
 }
 
-.footer .coluna1 button:hover{
+.footer .c2 button:hover{
     background-color:transparent ;
     border: 2px solid #0082c4; 
     color: #0082c4; 
@@ -388,12 +388,12 @@
 
 
 
-.footer .coluna1 button a{
+.footer .c2 button a{
     color: inherit;
     text-decoration: none;
 }
 
-.footer .coluna2 button {
+.footer .c3 button {
     position: relative;
     display: inline-flex; 
     align-items: center;
@@ -410,7 +410,7 @@
     overflow: hidden; 
 }
 
-.footer .coluna2 button:hover {
+.footer .c3 button:hover {
     background-color:transparent ;
     font-size: medium;
     border: 2px solid #0082c4; 
@@ -419,7 +419,7 @@
     left: -10px;
 }
 
-.footer .coluna2 button a{
+.footer .c3 button a{
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -429,7 +429,7 @@
     height: 100%;
 }
 
-.footer .coluna2 button i{
+.footer .c3 button i{
     display: inline;
     align-items: baseline;
     background-color: transparent;
@@ -440,7 +440,7 @@
     transition: inherit;
  
 }
-.footer .coluna2{
+.footer .c3{
     display: flex; 
     flex-direction: row; 
 }
